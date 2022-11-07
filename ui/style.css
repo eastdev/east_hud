@@ -1,0 +1,135 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.9vmin;
+    font-family: 'Poppins', sans-serif;
+}
+
+.status {
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 1.8em;
+    transition: 200ms ease-out;
+}
+
+.circle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 4em;
+    height: 4em;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 0 1em;
+    box-shadow: 0 0 1.0em 0.1em rgb(0 0 0 / 50%);
+}
+
+.fill {
+    width: 100%;
+    height: 0%;
+    transition: 200ms ease-out;
+}
+
+i {
+    position: absolute;
+    align-self: center;
+    color: white;
+    font-size: 2.2em;
+    opacity: 0.502;
+    transition: 200ms ease-out;
+}
+
+.health {
+    background-color: #ef9a9a80;
+}
+
+.health .fill {
+    background-color: #E53935;
+}
+
+.armour {
+    background-color: #B0BEC580;
+}
+
+.armour .fill {
+    background-color: #546E7A;
+}
+
+.food {
+    background-color: #FFCC8080;
+}
+
+.food .fill {
+    background-color: #FB8C00;
+}
+
+.water {
+    background-color: #90CAF980;
+}
+
+.water .fill {
+    background-color: #1E88E5;
+}
+
+.carhud {
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+    text-shadow: 0 0 1.0em rgba(0, 0, 0, 0.5);
+}
+
+.speedometer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 0 0.5em;
+    margin-bottom: 1em;
+    width: 5em;
+}
+
+.speedometer #speed {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    opacity: 0.502;
+    transition: 200ms ease-out;
+}
+
+.speedometer #unit {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.seatbelt {
+    background-color: #e53935;
+    width: 3em;
+    height: 3em;
+}
+
+.seatbelt i {
+    font-size: 1.65em;
+}
+
+.seatbelt .fill {
+    background-color: #fb8c00;
+}
+
+.fuel {
+    background-color: #ffcc8080;
+    width: 3em;
+    height: 3em;
+}
+
+.fuel i {
+    font-size: 1.65em;
+}
+
+.fuel .fill {
+    background-color: #FB8C00;
+}
